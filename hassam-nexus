@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HASSAM NEXUS</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #050816;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #164e63;
+}
+
+header h1 {
+    color: #00e5ff;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 85px 15px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    color: #00e5ff;
+}
+
+.hero p {
+    color: #aaa;
+    font-size: 17px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+    padding: 25px;
+}
+
+.card {
+    background: #101b35;
+    border: 1px solid #164e63;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #00e5ff;
+}
+
+.card h3 {
+    color: #00e5ff;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #bbb;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>HASSAM NEXUS</h1>
+    <p>THE FUTURE STARTS HERE</p>
+</header>
+
+<section class="hero">
+    <h2>WELCOME TO <span>NEXUS</span></h2>
+    <p>Your Personal Digital Universe.</p>
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h3>🤖 NEXUS AI</h3>
+<p>Your intelligent AI assistant.</p>
+</div>
+
+<div class="card">
+<h3>🌌 HOLO SPACE</h3>
+<p>Explore a futuristic digital space.</p>
+</div>
+
+<div class="card">
+<h3>🎨 DREAM ENGINE</h3>
+<p>Turn creative ideas into reality.</p>
+</div>
+
+<div class="card">
+<h3>🎙️ VOICE COMMAND</h3>
+<p>Control your digital universe.</p>
+</div>
+
+<div class="card">
+<h3>🧠 SMART MEMORY</h3>
+<p>Save your important notes.</p>
+</div>
+
+<div class="card">
+<h3>🧪 FUTURE LAB</h3>
+<p>Discover new digital tools.</p>
+</div>
+
+</section>
+
+<footer>
+MADE WITH ❤️ BY HASSAM JUTT
+</footer>
+
+</body>
+</html>
